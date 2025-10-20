@@ -3,7 +3,7 @@ import requests
 import datetime
 
 '''
-# TaxiFareModel front
+# TaxiFare Prediction App
 '''
 
 date = st.date_input('please enter date as (YYYY-MM-DD)', value= datetime.date(2012, 5, 2))
