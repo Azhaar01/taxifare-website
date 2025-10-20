@@ -33,4 +33,4 @@ if url == 'https://taxifare-747325269837.europe-west1.run.app/predict':
         if st.button('Make Prediction'):
             st.header(f'Predicted fare: {round(predict["fare"], 2)}')
     else:
-        st.error('Oh, There is an error try to catch it!')
+        st.error('Oh, There is an error. Try to catch it!')
